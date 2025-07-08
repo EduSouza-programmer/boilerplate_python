@@ -23,9 +23,9 @@ name = "project1"
 version = "0.0.1"
 description = "project1"
 readme = "README.md"
-license = "MIT"
-authors = [{ name = "Seu nome", email = "seu@email.com" }]
-requires-python = ">=3.13"
+license = "Fully Proprietary"
+authors = [{ name = "Seu nome", email = "limahub@gmail.com" }]
+requires-python = ">=3.12.9"
 dependencies = ["python-dotenv>=1.1.0"]
 
 [project.urls]
@@ -50,7 +50,7 @@ project1 = "my_package.my_module:run_from_script"
 # ============================
 [tool.ruff]
 line-length = 88
-target-version = "py313"
+target-version = "py312"
 fix = true
 show-fixes = true
 indent-width = 4
@@ -114,7 +114,7 @@ known-first-party = ["my_package"]
 # ============================
 [tool.pyright]
 typeCheckingMode = "strict"
-pythonVersion = "3.13"
+pythonVersion = "3.12"
 include = ["src", 'tests']
 exclude = [
     "**/venv",
